@@ -1,43 +1,90 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy Policy — Clary AI Focus</title>
 <style>
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 720px; margin: 0 auto; padding: 32px 20px; color: #2b2b2b; line-height: 1.65; background: #FFF6EE; }
-  h1 { font-size: 1.6rem; } h2 { font-size: 1.15rem; margin-top: 2em; }
-  a { color: #6C4AB6; }
-  .updated { color: #777; font-size: 0.9rem; }
+  :root { --ink:#2B2535; --muted:#6E667C; --accent:#7C5CF6; --bg:#FFF6EE; --card:#FFFFFF; --line:#F0E2D6; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:40px 20px 64px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:28px 24px; }
+  h1 { font-size:30px; line-height:1.2; margin:0 0 6px; }
+  h2 { font-size:19px; margin:32px 0 8px; }
+  .meta { color:var(--muted); margin:0 0 20px; }
+  ul { padding-left:20px; } li { margin:6px 0; }
+  table { width:100%; border-collapse:collapse; margin:10px 0; font-size:15px; }
+  th, td { text-align:left; padding:10px 8px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:600; }
+  a { color:var(--accent); }
+  nav { margin-bottom:16px; font-size:15px; } nav a { margin-right:14px; }
 </style>
 </head>
 <body>
+<main>
+<nav><a href="./">Privacy Policy</a><a href="support.html">Support</a></nav>
+<div class="card">
 <h1>Privacy Policy</h1>
-<p class="updated">Clary AI Focus — Last updated: July 4, 2026</p>
+<p class="meta">Clary AI Focus · Last updated: October 23, 2026</p>
 
-<p>This Privacy Policy describes how Clary AI Focus ("the App", "we") collects, uses, and protects your information. The App is an ADHD-friendly focus and self-care application developed by Emin Akın Öztürk.</p>
+<p>Clary AI Focus ("Clary", "the App", "we") is a focus and self-care app for people who find it hard to start and stay on track. It is developed and operated by Emin Akın Öztürk (sole proprietor, Türkiye), who is responsible for your data. This policy explains what we collect, why, who processes it, and how to delete it.</p>
 
-<h2>Information We Collect</h2>
-<p><strong>Account information.</strong> When you create an account, we collect your email address and, if you sign in with Apple or Google, the name and email address shared by that provider. Sign in with Apple lets you hide your real email address.</p>
-<p><strong>App activity data.</strong> To sync your progress across sessions, we store the data you create in the App, such as daily routines, completed tasks, focus timer sessions, and mood or self-care entries.</p>
-<p><strong>We do not collect</strong> your location, contacts, photos, advertising identifiers, or any data for advertising or tracking purposes.</p>
+<h2>The short version</h2>
+<ul>
+  <li>We collect only what the App needs to work: your account, the routine data you choose to sync, and basic, pseudonymous usage analytics.</li>
+  <li>Some of your most personal data never leaves your phone: <b>cycle tracking, journal and reflection entries, and sleep sessions stay on your device.</b></li>
+  <li>We do not sell your data, show ads, or track you across other apps or websites.</li>
+  <li>You can delete your account and synced data at any time from inside the App.</li>
+</ul>
 
-<h2>How We Use Your Information</h2>
-<p>Your data is used solely to provide the App's functionality: signing you in, syncing your routines and focus history between sessions and devices, and restoring your data if you reinstall the App. We do not sell your data, show ads, or share your information with third parties for marketing.</p>
+<h2>What we collect</h2>
+<table>
+  <tr><th>Data</th><th>Why</th></tr>
+  <tr><td><b>Account details</b>: email address; your name if you choose to add one or share it through Sign in with Apple or Google. Sign in with Apple lets you hide your real email.</td><td>To create your account and sign you in.</td></tr>
+  <tr><td><b>Routine data you create</b>: daily routines, completed tasks, extra tasks, daily mood check-ins, daily progress, saved Inspire items, and your onboarding answers.</td><td>To sync and back up your progress and restore it on a new device. Mood check-ins are stored with your account only so you can see your own history.</td></tr>
+  <tr><td><b>Friends features</b> (only if you use them): friend connections and nudges you send or receive.</td><td>To show progress to friends you add and deliver nudges.</td></tr>
+  <tr><td><b>Usage analytics</b>: which screens and features are used (for example "routine task completed"), app version, device type, and a pseudonymous user ID.</td><td>To understand what works and fix what doesn't. We never send the text you write, or your cycle, mood, journal or sleep data, to analytics.</td></tr>
+  <tr><td><b>Purchase records</b>: your subscription status and purchase history for Clary Plus. Payment details are handled by Apple and never reach us.</td><td>To unlock Clary Plus and restore purchases.</td></tr>
+  <tr><td><b>AI assistant usage</b>: a daily counter of how many times you used the assistant.</td><td>To apply the daily limit for your plan.</td></tr>
+</table>
 
-<h2>Where Your Data Is Stored</h2>
-<p>Data is stored securely on Supabase infrastructure over encrypted (HTTPS/TLS) connections. Access is protected by industry-standard authentication, and your records are only accessible from your own account.</p>
+<h2>What stays on your device</h2>
+<p>Cycle and period tracking, journal and reflection entries, and sleep tracking sessions are stored only on your phone. They are not uploaded to our servers or sent to analytics. Deleting the App removes them.</p>
 
-<h2>Data Retention and Deletion</h2>
-<p>Your data is retained while your account is active. You can request deletion of your account and all associated data at any time by contacting us at the email below; deletion requests are completed within 30 days.</p>
+<h2>AI assistant</h2>
+<p>When you ask the assistant to break down a task, the text you typed is sent through our server to Anthropic, the provider of the Claude AI model, to generate the steps. We do not store this text, and we do not send it to analytics. Anthropic processes it under its commercial terms to return the response.</p>
 
-<h2>Children's Privacy</h2>
-<p>The App is not directed at children under 13, and we do not knowingly collect personal information from children under 13.</p>
+<h2>Service providers</h2>
+<p>We use a small number of providers who process data on our behalf, only to run the App:</p>
+<ul>
+  <li><b>Supabase</b>: account, database and file hosting.</li>
+  <li><b>PostHog</b> (EU region): pseudonymous product analytics.</li>
+  <li><b>RevenueCat</b>: subscription management for Clary Plus.</li>
+  <li><b>Apple</b>: Sign in with Apple, in-app purchases and notifications.</li>
+  <li><b>Google</b>: only if you choose Sign in with Google.</li>
+  <li><b>Anthropic</b>: AI assistant responses, as described above.</li>
+</ul>
+<p>We do not sell personal data or share it with anyone for advertising. We do not use advertising identifiers and do not track you across other companies' apps or websites.</p>
 
-<h2>Changes to This Policy</h2>
-<p>We may update this policy from time to time. Material changes will be reflected by the "Last updated" date on this page.</p>
+<h2>Security</h2>
+<p>All data is transmitted over encrypted connections (HTTPS/TLS). Database access rules ensure your records can only be read by your own account.</p>
+
+<h2>Retention and deletion</h2>
+<p>We keep your data while your account exists. You can delete your account at any time in the App under <b>Profile → Account → Delete account</b>. This permanently deletes your account and all synced data from our servers immediately, and we ask our analytics and subscription providers to delete the records linked to your account. Your Apple subscription is managed by Apple: to stop future charges, cancel it in iOS Settings → Apple ID → Subscriptions.</p>
+
+<h2>Your rights</h2>
+<p>Depending on where you live (for example under the GDPR or Türkiye's KVKK), you may have the right to access, correct, export or delete your personal data, and to object to or restrict its processing. Most of this you can do directly in the App. For anything else, email us and we will respond within 30 days. You also have the right to complain to your local data protection authority.</p>
+
+<h2>Children</h2>
+<p>Clary is not directed at children under 13, and we do not knowingly collect personal data from children under 13. If you believe a child has given us data, contact us and we will delete it.</p>
+
+<h2>Changes</h2>
+<p>If we change this policy, we will update the date at the top of this page. For significant changes we will also let you know in the App.</p>
 
 <h2>Contact</h2>
-<p>For any questions or data requests: <a href="mailto:akinozturk94@gmail.com">akinozturk94@gmail.com</a></p>
+<p>Emin Akın Öztürk · <a href="mailto:akinozturk94@gmail.com">akinozturk94@gmail.com</a></p>
+</div>
+</main>
 </body>
 </html>
